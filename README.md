@@ -1,4 +1,4 @@
-# PWM Brightness Controller (Basys 3)
+# PWM Generator on a Basys 3 FPGA
 
 A PWM generator on the Basys 3 FPGA. You can set a value with the buttons (controls below) and it shows up on the 7-segment display. That value determines the brightness of all 16 LEDs.
 
