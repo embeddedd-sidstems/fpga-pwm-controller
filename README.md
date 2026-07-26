@@ -2,7 +2,7 @@
 
 A PWM generator on the Basys 3 FPGA. You can set a value with the buttons (controls below) and it shows up on the 7-segment display. That value determines the brightness of all 16 LEDs.
 
-The value goes from 0 to 255, and that's the PWM duty cycle — 0 is off, 255 is full brightness.
+PWM duty cycle: 0 is off, 255 is full brightness.
 
 ## Buttons
 
@@ -16,7 +16,7 @@ All five are debounced (10 ms) so one press counts once.
 
 ## How it works
 
-The value is compared against a free-running 8-bit counter. The LED is on while the counter is below the value, off above it — so a bigger value means the LED is on for more of each cycle, which looks brighter. That's PWM.
+The value is compared against a free-running 8-bit counter. The LED is on while the counter is below the value, off above it. so a bigger value means the LED is on for more of each cycle, which looks brighter. That's the PWM duty cycle.
 
 ## Modules
 
